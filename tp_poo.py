@@ -156,27 +156,5 @@ commande1.valider_commande()
 print(f"les points de fedelite de {client1.nom} sont :{client1.points_fidelite}")# ca va afficher 15 car le client a deja 5 points et elle va gangner 10 points de plus pour son achat de 10 euros
 
 
-# reponse au questions:
 
-# 1-Quelle partie du code permet d’ajouter facilement de nouveaux ingrédients ?
-# Réponse : la classe DecorateurBoisson
-
-
-# 2️- Si nous voulions ajouter une nouvelle boisson (ex : chocolat chaud), quelles classes devraient être modifiées ?
-# Réponse : aucune classe existante ne doit être modifiée.
-# Il suffit de créer une nouvelle classe qui hérite de Boisson, par exemple :
-# class ChocolatChaud(Boisson):
-#     def cout(self):
-#         return 3.0
-#     def description(self):
-#         return "chocolat chaud"
-
-
-# 3️- Pourquoi séparer les responsabilités entre plusieurs classes rend le programme plus facile à maintenir ?
-# Réponse : chaque classe a une seule responsabilité.
-# Avantages :
-# - Modification facile : changer une partie du programme n’impacte pas les autres classes.
-# - Réutilisation : les classes peuvent être utilisées dans d’autres contextes.
-# - Debugging plus simple : les erreurs sont localisées dans une classe précise.
-# - Lecture du code plus claire : chaque classe a un rôle bien défini.
 
